@@ -1,0 +1,79 @@
+<style> /*likes.css*/
+  a:link{text-decoration: none;}
+  body{
+
+        background-image:url("배경1.jpg");
+        background-size:cover;
+  }
+a:link{text-decoration: none;}
+
+  h1{
+    padding:0;
+    border:0;
+    margin:5px;
+  }
+  #home{
+    border:0;
+    background-color:transparent;
+    float:left;
+    height:0px;
+
+  }
+
+
+  .home-img{
+    width:60px;
+    height:70px;
+
+    }
+
+
+  #summary{
+    font-size:20px;
+    text-align:right;
+  }
+  #summary2{
+    font-size:20px;
+    text-align:left;
+  }
+
+  </style>
+
+  <style> /*favorites.css*/
+    a:link{text-decoration: none;}
+    body{
+
+          background-image:url("배경10.jpg");
+          background-size:cover;
+    }
+
+    #home{
+      border:0;
+      background-color:transparent;
+      float:right;
+
+    }
+
+
+    .home-img{
+      width:60px;
+      height:70px;
+
+      }
+
+    ul{
+      font-size:25px;
+    }
+
+
+    th{
+      font-size:28px;
+      background-color:#CDA3D5;
+      color:white;
+    }
+
+    td{
+      font-size:25px;
+      color:#AC6A31;
+    }
+    </style>

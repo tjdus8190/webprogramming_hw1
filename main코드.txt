@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>2015726066김서연</title>
+    <style>
+
+      body{
+        background-image: url(배경3.jpg);
+        background-size:cover;
+      }
+
+
+      #home{
+        border:0;
+        background-color:transparent;
+        float:right;
+
+      }
+
+
+      .home-img{
+        width:60px;
+        height:70px;
+
+        }
+      .wrapper{
+        display:grid;
+        grid-template-columns:200px 200px 200px;
+        grid-template-rows:200px 200px;
+
+      }
+
+      a:link{text-decoration: none;}
+
+      .item1,.item2,.item3,.item4,.item5,.item6{
+        font-size: 30px;
+        background-size:cover;
+
+      }
+
+
+
+    .item1{
+      grid-column-start:1;
+      grid-column-end:3;
+      background-image:url(item1.jpg);
+
+    }
+
+    .item2{
+      background-image:url(item2.jpg);
+
+    }
+
+
+    .item3{
+      grid-row-start:2;
+      grid-row-end:4;
+      background-image:url(item3.jpg);
+    }
+
+    .item4{
+      grid-column-start:2;
+      grid-column-end:4;
+      background-image:url(item4.jpg);
+
+    }
+
+    .item5{
+      background-image:url(item5.jpg);
+
+    }
+
+    .item6{
+      background-image:url(item6.jpg);
+
+    }
+
+
+      </style>
+  </head>
+
+  <body>
+
+<h1><font face="배달의민족 연성"><a href="main.html"><font color="#8A4B08">서 연[ ]에 관하여,</a></color></font><h1>
+   <button  id="home" type="submit" onclick="location.href='main.html'"  ><img class="home-img" src="홈키.png" ></button>
+<div class="wrapper">
+  <div class="item1" Onclick="location.href='about.html'"><br>&nbsp;1.about</div>
+  <div class="item2" Onclick="location.href='hobby.html'"><br><br>&nbsp;&nbsp;&nbsp;&emsp;&emsp;2.hobby</div>
+  <div class="item3" Onclick="location.href='likes.html'"><br><br><br><br><br>&nbsp;&emsp;&emsp;3.likes</div>
+  <div class="item4" Onclick="location.href='favorites.html'">&emsp;4.favorites</div>
+  <div class="item5" Onclick="location.href='music.html'">&emsp;&emsp;&nbsp;5.music</div>
+  <div class="item6" Onclick="location.href='q&a.html'">&emsp;&emsp;6.Q&A</div>
+
+
+</div>
+
+  </body>
+
+<script>
+
+</script>
+
+
+
+</html>

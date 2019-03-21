@@ -1,0 +1,41 @@
+<style> /*favorites.css*/
+  a:link{text-decoration: none;}
+
+  body{
+
+        background-image:url("배경10.jpg");
+        background-size:cover;
+  }
+
+  a:link{text-decoration: none;}
+
+  #home{
+    border:0;
+    background-color:transparent;
+    float:right;
+
+  }
+
+
+  .home-img{
+    width:60px;
+    height:70px;
+
+    }
+
+  ul{
+    font-size:25px;
+  }
+
+
+  th{
+    font-size:28px;
+    background-color:#CDA3D5;
+    color:white;
+  }
+
+  td{
+    font-size:25px;
+    color:#AC6A31;
+  }
+  </style>

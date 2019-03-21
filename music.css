@@ -1,0 +1,38 @@
+<style>/*music.css*/
+
+a:link{text-decoration: none;}
+body{
+
+      background-image:url("배경6.jpg");
+      background-size:cover;
+}
+a:link{text-decoration: none;}
+  h1{
+    padding:0;
+    border:0;
+    margin:5px;
+  }
+  #home{
+    border:0;
+    background-color:transparent;
+    float:right;
+
+  }
+
+
+  .home-img{
+    width:60px;
+    height:70px;
+
+    }
+
+ul{
+  font-size:23px;
+  border-bottom:3px solid khaki;
+    border-top:3px solid khaki;
+
+}
+  a:link{text-decoration: none;}
+
+
+  </style>

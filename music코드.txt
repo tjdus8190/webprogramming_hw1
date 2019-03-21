@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>music.html</title>
+<style>
+
+  body{
+    background-image: url(배경6.jpg);
+    background-size:cover;
+  }
+
+  h1{
+    padding:0;
+    border:0;
+    margin:5px;
+  }
+  #home{
+    border:0;
+    background-color:transparent;
+    float:right;
+
+  }
+
+
+  .home-img{
+    width:60px;
+    height:70px;
+
+    }
+
+ul{
+  font-size:23px;
+  border-bottom:3px solid khaki;
+    border-top:3px solid khaki;
+
+}
+  a:link{text-decoration: none;}
+
+
+  </style>
+
+
+
+  </head>
+  <body>
+    <h1><font face="배달의민족 연성"><a href="music.html"><div style ="text-align:center"><font color="#CDA82F">서 연의 선곡,</a></color></font><h1>
+          <button  id="home" type="submit" onclick="location.href='main.html'"  ><img class="home-img" src="홈키.png" ></button>
+        <ul>
+         1.10cm-너의꽃<br>
+         2.잔나비-뜨거운 여름밤은 가고 남은건 볼품없지만<br>
+         3.crush(크러쉬)-2411<br>
+         4.아이유(IU)-이 지금
+        </ul>
+
+        <h2><font face="배달의민족 연성"><div style ="text-align:left"><font color="#762B06"><font size=5>1.10cm-너의꽃</font><h2>
+          <p>
+            <iframe width="700" height="400" src="https://www.youtube.com/embed/Lxb910zK3f0"
+            frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </p>
+
+
+        <h2><font face="배달의민족 연성"><div style ="text-align:left"><font color="#762B06"><font size=5>2.잔나비-뜨거운 여름밤은 가고 남은건 볼품없지만</font><h2>
+          <p>
+            <iframe width="700" height="400" src="https://www.youtube.com/embed/f5wCZ0-3Eos" frameborder="0" allow="accelerometer;
+             autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+            </p>
+
+        <h2><font face="배달의민족 연성"><div style ="text-align:left"><font color="#762B06"><font size=5>3.crush(크러쉬)-2411</font><h2>
+          <p>
+            <iframe width="700" height="400" src="https://www.youtube.com/embed/pmp7e1O04Rw" frameborder="0" allow="accelerometer;
+            autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </p>
+
+        <h2><font face="배달의민족 연성"><div style ="text-align:left"><font color="#762B06"><font size=5>4.아이유(IU)-이 지금</font><h2>
+          <p>
+            <iframe width="700" height="400" src="https://www.youtube.com/embed/sB6UGX2YPjQ" frameborder="0" allow="accelerometer; autoplay;
+             encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+            </p>
+
+
+  </body>
+</html>

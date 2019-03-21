@@ -1,0 +1,408 @@
+
+<style>/* about.css*/
+  a:link{text-decoration: none;}
+  body{
+
+        background-image:url("배경8.jpg");
+        background-size:cover;
+  }
+  ul{
+    font-size:25px;
+    color:#643207;
+  }
+
+  h3{
+    font-size:20px;
+  }
+  #home{
+    border:0;
+    background-color:transparent;
+    float:right;
+
+  }
+
+
+  .home-img{
+    width:60px;
+    height:70px;
+
+    }
+    #heart{
+      float:center;
+      margin:0;
+      border:0;
+      padding:0;
+    }
+  </style>
+
+  <style> /*hobby.css*/
+
+    a:link{text-decoration: none;}
+
+    body{
+      background-image: url(배경7.jpg);
+      background-size:cover;
+    }
+
+    h1{
+      padding:0;
+      border:0;
+      margin:5px;
+    }
+    #home{
+      border:0;
+      background-color:transparent;
+      float:right;
+
+    }
+
+
+    .home-img{
+      width:60px;
+      height:70px;
+
+      }
+
+
+    .photobook1{
+      display:grid;
+      color:yellow;
+      font-size:30px;
+      grid-template-columns:1fr 1fr 1fr 1fr  ;
+      grid-template-rows:250px;
+
+    }
+
+
+    .tokyo1{
+      background-image:url(도쿄1.jpeg);
+      background-size:cover;
+
+    }
+    .tokyo2{
+      background-image:url(도쿄2.jpeg);
+      background-size:cover;
+    }
+    .tokyo3{
+      background-image:url(도쿄3.jpeg);
+      background-size:cover;
+    }
+    .tokyo4{
+      background-image:url(도쿄4.jpeg);
+      background-size:cover;
+
+    }
+
+
+  .photobookcomment1{
+    display:grid;
+    grid-template-columns:1fr 1fr 1fr 1fr ;
+    font-size:20px;
+    font-family:"배달의민족 한나는 열한살";
+    color:#645D56;
+  }
+
+  .photobook2{
+    display:grid;
+    color:yellow;
+    font-size:30px;
+    grid-template-columns:1fr 1fr 1fr 1fr  ;
+    grid-template-rows:250px;
+
+  }
+
+
+  .tokyo5{
+    background-image:url(도쿄5.jpeg);
+    background-size:cover;
+
+  }
+  .tokyo6{
+    background-image:url(도쿄6.jpeg);
+    background-size:cover;
+  }
+  .tokyo7{
+    background-image:url(도쿄7.jpeg);
+    background-size:cover;
+  }
+  .tokyo8{
+    background-image:url(도쿄8.jpeg);
+    background-size:cover;
+
+  }
+
+
+.photobookcomment2{
+  display:grid;
+  grid-template-columns:1fr 1fr 1fr 1fr ;
+  font-size:20px;
+  font-family:"배달의민족 한나는 열한살";
+  color:#645D56;
+}
+
+.photobook3{
+  display:grid;
+  color:yellow;
+  font-size:30px;
+  grid-template-columns:1fr 1fr 1fr 1fr ;
+  grid-template-rows:250px;
+
+}
+
+
+.tokyo9{
+  background-image:url(도쿄9.jpeg);
+  background-size:cover;
+
+}
+.tokyo10{
+  background-image:url(도쿄10.jpeg);
+  background-size:cover;
+}
+.tokyo11{
+  background-image:url(도쿄11.jpeg);
+  background-size:cover;
+}
+.tokyo12{
+  background-image:url(도쿄12.jpeg);
+  background-size:cover;
+
+}
+
+
+.photobookcomment3{
+display:grid;
+grid-template-columns:1fr 1fr 1fr 1fr ;
+font-size:20px;
+font-family:"배달의민족 한나는 열한살";
+color:#645D56;
+}
+
+.photobook4{
+display:grid;
+color:yellow;
+font-size:30px;
+grid-template-columns:1fr 1fr 1fr 1fr ;
+grid-template-rows:250px;
+
+}
+
+
+.daily1{
+background-image:url(일상1.jpeg);
+background-size:cover;
+
+}
+.daily2{
+background-image:url(일상2.jpeg);
+background-size:cover;
+}
+.daily3{
+background-image:url(일상3.jpeg);
+background-size:cover;
+}
+.daily4{
+background-image:url(일상4.jpeg);
+background-size:cover;
+
+}
+
+
+.photobookcomment4{
+display:grid;
+grid-template-columns:1fr 1fr 1fr 1fr ;
+font-size:20px;
+font-family:"배달의민족 한나는 열한살";
+color:#645D56;
+}
+
+.photobook5{
+display:grid;
+color:yellow;
+font-size:30px;
+grid-template-columns:1fr 1fr 1fr 1fr ;
+grid-template-rows:250px;
+
+}
+
+
+.daily5{
+background-image:url(일상5.jpeg);
+background-size:cover;
+
+}
+.daily6{
+background-image:url(일상6.jpeg);
+background-size:cover;
+}
+.daily7{
+background-image:url(일상7.jpeg);
+background-size:cover;
+}
+.daily8{
+background-image:url(일상8.jpeg);
+background-size:cover;
+
+}
+
+
+.photobookcomment5{
+display:grid;
+grid-template-columns:1fr 1fr 1fr 1fr ;
+font-size:20px;
+font-family:"배달의민족 한나는 열한살";
+color:#645D56;
+}
+
+  </style>
+
+  <style> /*likes.css*/
+    a:link{text-decoration: none;}
+    body{
+
+          background-image:url("배경1.jpg");
+          background-size:cover;
+    }
+
+
+    h1{
+      padding:0;
+      border:0;
+      margin:5px;
+    }
+    #home{
+      border:0;
+      background-color:transparent;
+      float:left;
+      height:0px;
+
+    }
+
+
+    .home-img{
+      width:60px;
+      height:70px;
+
+      }
+
+
+    #summary{
+      font-size:20px;
+      text-align:right;
+    }
+    #summary2{
+      font-size:20px;
+      text-align:left;
+    }
+
+    </style>
+
+    <style> /*favorites.css*/
+      a:link{text-decoration: none;}
+      body{
+
+            background-image:url("배경10.jpg");
+            background-size:cover;
+      }
+
+      #home{
+        border:0;
+        background-color:transparent;
+        float:right;
+
+      }
+
+
+      .home-img{
+        width:60px;
+        height:70px;
+
+        }
+
+      ul{
+        font-size:25px;
+      }
+
+
+      th{
+        font-size:28px;
+        background-color:#CDA3D5;
+        color:white;
+      }
+
+      td{
+        font-size:25px;
+        color:#AC6A31;
+      }
+      </style>
+
+      <style>/*music.css*/
+
+        body{
+          background-image: url(배경6.jpg);
+          background-size:cover;
+        }
+
+        h1{
+          padding:0;
+          border:0;
+          margin:5px;
+        }
+        #home{
+          border:0;
+          background-color:transparent;
+          float:right;
+
+        }
+
+
+        .home-img{
+          width:60px;
+          height:70px;
+
+          }
+
+      ul{
+        font-size:23px;
+        border-bottom:3px solid khaki;
+          border-top:3px solid khaki;
+
+      }
+        a:link{text-decoration: none;}
+
+
+        </style>
+
+        <style>/*q&a.css*/
+          a:link{text-decoration: none;}
+          body{
+
+                background-image:url("배경11.jpg");
+                background-size:cover;
+          }
+
+
+          h1{
+            padding:0;
+            border:0;
+            margin:5px;
+          }
+          #home{
+            border:0;
+            background-color:transparent;
+            float:right;
+
+          }
+
+
+          .home-img{
+            width:60px;
+            height:70px;
+
+            }
+
+          ul{
+            font-size:25px;
+          }
+
+          </style>

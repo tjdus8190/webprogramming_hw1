@@ -1,0 +1,76 @@
+<style> /*main.css*/
+
+a:link{text-decoration: none;}
+body{
+
+      background-image:url("배경3.jpg");
+      background-size:cover;
+}
+  #home{
+    border:0;
+    background-color:transparent;
+    float:right;
+
+  }
+
+
+  .home-img{
+    width:60px;
+    height:70px;
+
+    }
+  .wrapper{
+    display:grid;
+    grid-template-columns:200px 200px 200px;
+    grid-template-rows:200px 200px;
+
+  }
+
+  a:link{text-decoration: none;}
+
+  .item1,.item2,.item3,.item4,.item5,.item6{
+    font-size: 30px;
+    background-size:cover;
+
+  }
+
+
+
+.item1{
+  grid-column-start:1;
+  grid-column-end:3;
+  background-image:url(item1.jpg);
+
+}
+
+.item2{
+  background-image:url(item2.jpg);
+
+}
+
+
+.item3{
+  grid-row-start:2;
+  grid-row-end:4;
+  background-image:url(item3.jpg);
+}
+
+.item4{
+  grid-column-start:2;
+  grid-column-end:4;
+  background-image:url(item4.jpg);
+
+}
+
+.item5{
+  background-image:url(item5.jpg);
+
+}
+
+.item6{
+  background-image:url(item6.jpg);
+
+}
+
+
+  </style>
